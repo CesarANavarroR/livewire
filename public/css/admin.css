@@ -1,0 +1,76 @@
+.wrapper>aside.main-sidebar{
+    background-image: url('../BarraLateral.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 13rem;
+}
+.admin-bg{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/../MenuAdmin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    width: 60vw;
+}
+.brand-link{
+    height: 200px;
+}
+
+.os-padding {
+    top: 150px;
+}
+
+.wh-85{
+    height: 85%!important;
+    width: 85%;
+}
+
+.wrapper>aside.main-sidebar>.brand-link {
+    width: 13rem;
+}
+
+.layout-navbar-fixed .wrapper .main-sidebar:hover .brand-link {
+    width: 13rem;
+}
+.layout-navbar-fixed.sidebar-mini-md.sidebar-collapse .wrapper .brand-link, .layout-navbar-fixed.sidebar-mini.sidebar-collapse .wrapper .brand-link {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture{
+    width: 20vw;
+}
+
+.qr{
+    width: 10rem;
+}
+
+.centrar{
+    line-height: 150px;
+    font-size: 1.5rem;
+}
+
+.imgclass{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.container-fluid{
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+@media (min-width: 768px){
+    body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+        margin-left: 13rem;
+    }
+}
